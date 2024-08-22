@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.card {
+    height:100vh;
+    background-color: rgb(224, 200, 11);
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+.parent {
+    width: 320px;
+    height: 425px;
+    border: 0.85px solid black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 18px;
+    display: grid;
+    grid-template-rows: 2.5fr 1fr 1fr 1fr;
+    position: absolute;
+    top: 15%;
+    box-shadow: 10px 8px rgb(34, 34, 34);
+}
+.first-child {
+    width: 85%;
+    height: 93%;
+    background-image: url(/img/Screenshot\ 2024-08-.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: yellow;
+    border: 0px solid;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-right: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.second-child {
+    margin: 20px;
+}
+.second-child .btn {
+    padding: 0.2rem;
+    background-color: rgb(224, 200, 11);
+    border-radius: 3px;
+    border: 0px solid;
+}
+.second-child .btn a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+}
+.second-child .cont-date {
+    font-size: 10px;
+    margin-top: 7px;
+    font-family: Arial, Helvetica, sans-serif
+}
+.third-child {
+    margin-left: 17px;
+}
+.third-child h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+p {
+    padding-top: 8px;
+    font-size: small;
+    line-height: 22px;
+    letter-spacing: 0.7px;
+}
+.fourth-child {
+    padding: 12px;
+    position: relative;
+}
+.fourth-child .homepage {
+    width: 40px;
+    height: 40px;
+    background-image: url(/img/darkroom.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+.homepage {
+    position: fixed;
+   
+}
+.fourth-child h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+
+}
+h3 {
+    position: absolute;
+    left: 57px;
+    top: 25px;
+}
